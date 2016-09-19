@@ -10,9 +10,8 @@ public class MainApp {
 		Scanner userInt = new Scanner(System.in);
 		
 		//Set values
-		String cont = "yes";
-		
-	
+		String userCont; //Variable for user to continue
+		boolean cont = true;//Variable to control loop
 		
 		
 		  		
@@ -26,11 +25,20 @@ public class MainApp {
 		//Welcome user
 		System.out.println("Welcome to our Java class.Which student would you like to learn more about?(enter a number 1-17): ");
 		int user = userInt.nextInt();
-		System.out.println("Student " + user + " is " + names[user] +".What would you like to know about " + names[user] );
 		
+		System.out.println("Student " + user + " is " + names[user] +".What would you like to know about " + names[user] +(" enter hometown or favorite food)"));
+		String userS = userInt.next();
+		
+		/*if(userS.equalsIgnoreCase("hometown")){
+			System.out.println(names[user] + " is from " + hometown[user]);
+		} else if (userS.equalsIgnoreCase("favorite food")){
+			System.out.println(names[user] + " favorite food is " + food[user]);
+		}else { 
+			System.out.println("That data does not exist.Please try again");
+		}*/
 	
 	{
-		System.out.println();
+	
 		
 	}
 	}
