@@ -44,7 +44,7 @@ public class MainApp {
 			}
 		
 		userS = userInt.nextLine();
-		
+		//if statement to get to hometown or food
 		if(userS.equalsIgnoreCase("hometown")){
 			System.out.println(names[user] + " is from " + hometown[user] + " Would you like to know more?");
 			userCont = userInt.nextLine();
@@ -53,7 +53,7 @@ public class MainApp {
 			userCont = userInt.nextLine();
 		}else 	System.out.println("That does not exist");
 		}
-	
+		//End of while loop?
 		userS= userInt.nextLine();
 		System.out.println("Thanks");
 		
