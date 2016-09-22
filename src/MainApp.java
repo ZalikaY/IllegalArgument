@@ -22,6 +22,9 @@ public class MainApp {
 		String [] hometown = {"Detroit","Detroit","Monroe","Detroit","Hamtramack","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit","Detroit"};
 		
 		
+		//two dimensional arrays test
+		String [] peeples = {"Armani" , "Salmon","Detroit"} ,{"Yazmin","Pizza","Detroit"}
+		
 		while (userCont.equalsIgnoreCase("Yes")){
 		
 		//Welcome user
@@ -33,7 +36,7 @@ public class MainApp {
 			}
 		userInt.nextLine();
 		
-		
+		user = user-1;
 		
 		//Try statement to catch array error
 			try {
